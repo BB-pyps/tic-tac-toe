@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet"> 
+    <title>Tic-tac-toe</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <img class="logo-game" src="assets/svg/logo-tic-tac-toe.svg" width="120" height="120" data-tooltip="What are you watching? Let's play! &#128521;" alt="logo">
+            <button class="results-button">Results</button> 
+                <ol class="results-list"></ol>
+                <button class="close-results-button">X</button>
+        </div>
+    </header>
+    <main class="main-content">
+        <div class="container">
+            <h1 class="main-title">Tic-tac-toe</h1>
+            <div class="grid-container">
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+            </div>
+            <div class="popup">
+                <div class="popup-container">
+                    <div class="popup-content">
+                        <div class="game-status"></div>
+                        <div class="icon-container">
+                            <div class="icon"></div>
+                            <div class="icon"></div>
+                            <div class="icon"></div>
+                        </div>
+                        <button class="popup-button">Restart game</button>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="copyright">
+                <span>© 2022</span>
+                <a href="https://rs.school/js-stage0/"  target="_blank" class="link school-link"><img src="assets/svg/rs_school_js.svg" alt="rolling scopes school" width="100" height="50" class="school-logo"></a>
+                <span><a href="https://github.com/BB-pyps" target="_blank" class="link github-link">github</a></span>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
